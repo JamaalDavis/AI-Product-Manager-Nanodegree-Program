@@ -5,6 +5,7 @@
 - [Overview](#overview) 
 - [The Data](#data)
 - [How to distinguish Pneumonia symptoms in a chest x-ray image?](#Pneumonia)
+- [Notes](#notes)
 - [References](#references)
 
 ## Overview  <a name="overview"/>
@@ -50,6 +51,9 @@ A pneumonia image may include a few things: areas of cloudiness/opacity in sever
 <p style="color:blue;font-size:10px;">Examples of pneumonia symptoms: (Left) a concentrated, opaque area in the lungs, (Right) multiple, smaller opaque areas throughout the lung area and any diaphragm shadow is obscured.</p>
 
 ![pneumonia-examples.png](Data_Annotation_Project_Files/images/pneumonia-examples.png)
+
+## Notes <a name="notes"/>
+- Some parts of this README are copied directly from the Udacity project instructions.
 
 ## References <a name="references"/>
 
