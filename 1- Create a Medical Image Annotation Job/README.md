@@ -1,6 +1,6 @@
 #  Project: Create a Medical Image Annotation Job
 
-##### Table of Contents 
+## Table of Contents 
 
 - [Overview](#overview) 
 - [The Data](#data)
@@ -30,3 +30,7 @@ The dataset is a modified version of this [Kaggle chest x-ray dataset](https://w
 ## References <a name="references"/>
 
 - [AI Product Manager NanoDegree - Udacity](https://www.udacity.com/course/ai-product-manager-nanodegree--nd088)
+- [Appen](https://appen.com/)
+- [Kaggle](https://www.kaggle.com)
+- [Chest x-ray dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+
