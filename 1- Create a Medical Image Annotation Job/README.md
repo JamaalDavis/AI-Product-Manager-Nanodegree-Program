@@ -4,6 +4,7 @@
 
 - [Overview](#overview) 
 - [The Data](#data)
+- [How to distinguish Pneumonia symptoms in a chest x-ray image?](#Pneumonia)
 - [References](#references)
 
 ## Overview  <a name="overview"/>
@@ -28,7 +29,7 @@ The dataset is a modified version of this [Kaggle chest x-ray dataset](https://w
 ![annotated-chest-xray.png](Data_Annotation_Project_Files/images/annotated-chest-xray.png)
 
 
-## How to distinguish Pneumonia symptoms in a chest x-ray image?
+## How to distinguish Pneumonia symptoms in a chest x-ray image? <a name="Pneumonia"/>
 
 This is a challenging task because it is not always clear when pneumonia symptoms are present or not in an image. As such, the system is not meant to be a replacement for a doctor, only to aid in quickly identifying healthy patients and surfacing potential cases of pneumonia.
 
@@ -49,7 +50,6 @@ A pneumonia image may include a few things: areas of cloudiness/opacity in sever
 <p style="color:blue;font-size:10px;">Examples of pneumonia symptoms: (Left) a concentrated, opaque area in the lungs, (Right) multiple, smaller opaque areas throughout the lung area and any diaphragm shadow is obscured.</p>
 
 ![pneumonia-examples.png](Data_Annotation_Project_Files/images/pneumonia-examples.png)
-
 
 ## References <a name="references"/>
 
