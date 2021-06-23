@@ -53,7 +53,7 @@ A pneumonia image may include a few things: areas of cloudiness/opacity in sever
 ![pneumonia-examples.png](Data_Annotation_Project_Files/images/pneumonia-examples.png)
 
 ## Notes <a name="notes"/>
-- Some parts of this README are copied directly from the Udacity project instructions.
+- Most of the parts of this README are directly copied from the Udacity project instructions.
 
 ## References <a name="references"/>
 
