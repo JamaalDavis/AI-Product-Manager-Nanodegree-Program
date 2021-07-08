@@ -65,4 +65,5 @@ A pneumonia image may include a few things: areas of cloudiness/opacity in sever
 - [Appen](https://appen.com/)
 - [Kaggle](https://www.kaggle.com)
 - [Chest x-ray dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+- [7 Types of Data Bias in Machine Learning](https://www.telusinternational.com/articles/7-types-of-data-bias-in-machine-learning?INTCMP=ti_lbai)
 
