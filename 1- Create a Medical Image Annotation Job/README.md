@@ -2,9 +2,10 @@
 
 ## Table of Contents 
 
-- [Overview](#overview) 
+- [Overview](#overview)
 - [The Data](#data)
 - [How to distinguish Pneumonia symptoms in a chest x-ray image?](#Pneumonia)
+- [Project Structure](#structure)
 - [Notes](#notes)
 - [References](#references)
 
@@ -33,7 +34,6 @@ A typical, labeled image is shown below:
 
 ![annotated-chest-xray.png](Data_Annotation_Project_Files/images/annotated-chest-xray.png)
 
-
 ## How to distinguish Pneumonia symptoms in a chest x-ray image? <a name="Pneumonia"/>
 
 This is a challenging task because it is not always clear when pneumonia symptoms are present or not in an image. As such, the system is not meant to be a replacement for a doctor, only to aid in quickly identifying healthy patients and surfacing potential cases of pneumonia.
@@ -56,8 +56,19 @@ A pneumonia image may include a few things: areas of cloudiness/opacity in sever
 
 ![pneumonia-examples.png](Data_Annotation_Project_Files/images/pneumonia-examples.png)
 
+## Project Structure <a name="structure"/>
+
+- *Data_Annotation_Project_Files* directory is the root directory. 
+- *images* folder is for example images, 
+- *Example_Preview_Layout.html* is given by Udacity as a sample layout,
+- *Instructions_Preview.html* is the data annotation job I've designed using [Appen's](https://appen.com/) platform.
+- *project-proposal.docx* is the project proposal document filled by me.
+- *project-proposal.pdf* is the pdf version of the final project proposal document.
+- *xray_image_data.csv* is the pneumonia dataset.
+
 ## Notes <a name="notes"/>
 - Most of the parts of this README are directly copied from the Udacity project instructions.
+
 
 ## References <a name="references"/>
 
