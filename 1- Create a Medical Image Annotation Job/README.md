@@ -26,7 +26,7 @@ The main task will be to create a data labeling job using [Appen's](https://appe
 ## The Data  <a name="data"/>
 The dataset is a modified version of this [Kaggle chest x-ray dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia), with most labels removed. Every piece of data is a chest x-ray image. You may see images taken that are slightly different in size and taken under slightly different exposure times. 
 
-The data is stored in *xray_image_data.csv* and can be found in the Data_Annotation_Project_Files folder.
+The data is stored in *../data/xray_image_data.csv* and can be found in the Data_Annotation_Project_Files folder.
 
 A typical, labeled image is shown below:
 
