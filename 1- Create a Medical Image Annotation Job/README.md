@@ -70,7 +70,6 @@ A pneumonia image may include a few things: areas of cloudiness/opacity in sever
 ## Notes <a name="notes"/>
 - Most of the parts of this README are directly copied from the Udacity project instructions.
 
-
 ## References <a name="references"/>
 
 - [AI Product Manager Program - Udacity](https://www.udacity.com/course/ai-product-manager-nanodegree--nd088)
