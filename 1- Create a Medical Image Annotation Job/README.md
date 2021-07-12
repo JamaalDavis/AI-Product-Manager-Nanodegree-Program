@@ -26,7 +26,7 @@ The main task will be to create a data labeling job using [Appen's](https://appe
 ## The Data  <a name="data"/>
 The dataset is a modified version of this [Kaggle chest x-ray dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia), with most labels removed. Every piece of data is a chest x-ray image. You may see images taken that are slightly different in size and taken under slightly different exposure times. 
 
-The data is stored in *../data/xray_image_data.csv* and can be found in the Data_Annotation_Project_Files folder.
+The data is stored in *'../data/xray_image_data.csv'*.
 
 A typical, labeled image is shown below:
 
@@ -60,6 +60,7 @@ A pneumonia image may include a few things: areas of cloudiness/opacity in sever
 
 - *Data_Annotation_Project_Files* directory is the root directory. 
 - *images* folder is for example images, 
+- *data* folder is for data,
 - *Example_Preview_Layout.html* is given by Udacity as a sample layout,
 - *Instructions_Preview.html* is the data annotation job I've designed using [Appen's](https://appen.com/) platform.
 - *project-proposal.docx* is the project proposal document filled by me.
@@ -77,4 +78,3 @@ A pneumonia image may include a few things: areas of cloudiness/opacity in sever
 - [Kaggle](https://www.kaggle.com)
 - [Chest x-ray dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 - [7 Types of Data Bias in Machine Learning](https://www.telusinternational.com/articles/7-types-of-data-bias-in-machine-learning?INTCMP=ti_lbai)
-
