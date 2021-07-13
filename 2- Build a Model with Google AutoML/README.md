@@ -3,6 +3,7 @@
 ## Table of Contents 
 
 - [Overview](#overview)
+- [References](#references)
 
 ## Overview  <a name="overview"/>
 
@@ -15,3 +16,9 @@ This dataset would eventually be used to build a product that helps doctors quic
 - Generally, act as a diagnostic aid for doctors.
 
 In this project, I am going to take the next step and build the classification model that would serve as the backbone of this product. For this task, I will use Google AutoML. In order to appreciate how training data impact models, I will build models with 4 variants of the dataset.
+
+## References <a name="references"/>
+
+- [AI Product Manager Program - Udacity](https://www.udacity.com/course/ai-product-manager-nanodegree--nd088)
+- [Kaggle](https://www.kaggle.com)
+- [Chest x-ray dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
