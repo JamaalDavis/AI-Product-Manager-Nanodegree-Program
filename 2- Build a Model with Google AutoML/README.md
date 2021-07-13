@@ -3,6 +3,7 @@
 ## Table of Contents 
 
 - [Overview](#overview)
+- [The Data](#data)
 - [Project Structure](#structure)
 - [Notes](#notes)
 - [References](#references)
@@ -19,6 +20,10 @@ This dataset would eventually be used to build a product that helps doctors quic
 
 In this project, I am going to take the next step and build the classification model that would serve as the backbone of this product. For this task, I will use Google AutoML. In order to appreciate how training data impact models, I will build models with 4 variants of the dataset.
 
+## The Data  <a name="data"/>
+
+We'll be using the same Kaggle [Chest x-ray dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) that we used in the [previous project](https://github.com/ErkanHatipoglu/AI-Product-Manager-Nanodegree-Program/tree/main/1-%20Create%20a%20Medical%20Image%20Annotation%20Job). We will use the original labels supplied with the data on [Kaggle](https://www.kaggle.com).
+
 ## Project Structure <a name="structure"/>
 
 - *Build_a_model_project_files* directory is the root directory. 
@@ -32,5 +37,6 @@ In this project, I am going to take the next step and build the classification m
 ## References <a name="references"/>
 
 - [AI Product Manager Program - Udacity](https://www.udacity.com/course/ai-product-manager-nanodegree--nd088)
+- [Create a Medical Image Annotation Job](https://github.com/ErkanHatipoglu/AI-Product-Manager-Nanodegree-Program/tree/main/1-%20Create%20a%20Medical%20Image%20Annotation%20Job)
 - [Kaggle](https://www.kaggle.com)
 - [Chest x-ray dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
