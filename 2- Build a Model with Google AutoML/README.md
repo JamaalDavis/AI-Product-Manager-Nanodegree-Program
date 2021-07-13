@@ -3,6 +3,7 @@
 ## Table of Contents 
 
 - [Overview](#overview)
+- [Project Structure](#structure)
 - [Notes](#notes)
 - [References](#references)
 
@@ -17,6 +18,13 @@ This dataset would eventually be used to build a product that helps doctors quic
 - Generally, act as a diagnostic aid for doctors.
 
 In this project, I am going to take the next step and build the classification model that would serve as the backbone of this product. For this task, I will use Google AutoML. In order to appreciate how training data impact models, I will build models with 4 variants of the dataset.
+
+## Project Structure <a name="structure"/>
+
+- *Build_a_model_project_files* directory is the root directory. 
+- *images* folder is for example images, 
+- *data* folder is for data,
+- *automl-modeling-report.docx* is the report document filled by me.
 
 ## Notes <a name="notes"/>
 - Most of the parts of this README are directly copied from the Udacity project instructions.
