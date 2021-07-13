@@ -3,6 +3,7 @@
 ## Table of Contents 
 
 - [Overview](#overview)
+- [Notes](#notes)
 - [References](#references)
 
 ## Overview  <a name="overview"/>
@@ -16,6 +17,9 @@ This dataset would eventually be used to build a product that helps doctors quic
 - Generally, act as a diagnostic aid for doctors.
 
 In this project, I am going to take the next step and build the classification model that would serve as the backbone of this product. For this task, I will use Google AutoML. In order to appreciate how training data impact models, I will build models with 4 variants of the dataset.
+
+## Notes <a name="notes"/>
+- Most of the parts of this README are directly copied from the Udacity project instructions.
 
 ## References <a name="references"/>
 
