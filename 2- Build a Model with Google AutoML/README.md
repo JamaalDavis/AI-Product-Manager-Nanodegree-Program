@@ -4,6 +4,7 @@
 
 - [Overview](#overview)
 - [The Data](#data)
+- [The Four Parts of the Project](#parts)
 - [Project Structure](#structure)
 - [Notes](#notes)
 - [References](#references)
@@ -23,6 +24,10 @@ In this project, I am going to take the next step and build the classification m
 ## The Data  <a name="data"/>
 
 We'll be using the same Kaggle [Chest x-ray dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia) that we used in the [previous project](https://github.com/ErkanHatipoglu/AI-Product-Manager-Nanodegree-Program/tree/main/1-%20Create%20a%20Medical%20Image%20Annotation%20Job). We will use the original labels supplied with the data on [Kaggle](https://www.kaggle.com).
+
+## The Four Parts of the Project <a name="parts"/>
+
+We will train four different models using four variants of the [pneumonia dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia). Recall that the dataset contains childrens' chest x-ray images, and that they are classified into two classes, "normal" and "pneumonia". The following sections describe the steps you must take to create each model.
 
 ## Project Structure <a name="structure"/>
 
