@@ -33,15 +33,21 @@ We will train four different models using four variants of the [pneumonia datase
 
 We'll start by training a model simply using 100 images from the **'normal'** class and 100 images from the **'pneumoni'** class. We will evaluate the following:
 
-- Train/test split: How much data is used for training and how much is used for testing?
-- Confusion matrix: What do each of the cells in the confusion matrix describe?
-- Precision & recall: What do these measure and how are they calculated?
+- **Train/test split:** How much data is used for training and how much is used for testing?
+- **Confusion matrix:** What do each of the cells in the confusion matrix describe?
+- **Precision & recall:** What do these measure and how are they calculated?
 
 ### Create an unbalanced binary classifier
 Next, we will use 100 images from the **'normal'** class, and add 200 more **'pneumonia'** class images. At this moment, the total count of images must be:
 
 - **'normal'** class = 100
 - **'pneumonia'** class = 300
+
+The model will be trained on very unbalanced classes; this will show what happens when the number of images in different classes is very different. We will be asked to evaluate:
+
+- **Confusion matrix:** What does the confusion matrix tell you about unbalanced data?
+- **Precision & recall:** How are precision and recall affected?
+- **Unbalanced classes:** How do unbalanced classes impact a machine learning model?
 
 ## Project Structure <a name="structure"/>
 
