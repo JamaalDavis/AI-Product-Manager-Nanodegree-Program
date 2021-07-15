@@ -31,11 +31,17 @@ We will train four different models using four variants of the [pneumonia datase
 
 ### Create a binary classifier to detect pneumonia using chest x-rays
 
-We'll start by training a model simply using 100 images from the **normal** class and 100 images from the **pneumoni** class. We will evaluate the following:
+We'll start by training a model simply using 100 images from the '**normal**' class and 100 images from the '**pneumoni**' class. We will evaluate the following:
 
 - Train/test split: How much data is used for training and how much is used for testing?
 - Confusion matrix: What do each of the cells in the confusion matrix describe?
 - Precision & recall: What do these measure and how are they calculated?
+
+### Create an unbalanced binary classifier
+Next, use 100 images from the '**normal**' class, and add 200 more '**pneumonia**' class images. At this moment, the total count of images must be:
+
+- '*normal*' class = 100
+- '*pneumonia*' class = 300
 
 ## Project Structure <a name="structure"/>
 
