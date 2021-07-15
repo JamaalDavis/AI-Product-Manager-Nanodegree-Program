@@ -43,11 +43,18 @@ Next, we will use 100 images from the **'normal'** class, and add 200 more **'pn
 - **'normal'** class = 100
 - **'pneumonia'** class = 300
 
-The model will be trained on very unbalanced classes; this will show what happens when the number of images in different classes is very different. We will be asked to evaluate:
+The model will be trained on very unbalanced classes; this will show what happens when the number of images in different classes is very different. We will evaluate:
 
 - **Confusion matrix:** What does the confusion matrix tell you about unbalanced data?
 - **Precision & recall:** How are precision and recall affected?
 - **Unbalanced classes:** How do unbalanced classes impact a machine learning model?
+
+### Create a binary classifier with dirty data
+In this iteration, start with the original dataset of 100 **normal** and 100 **pneumonia** images. Then switch the labels of 30 images in each class. After we've done this, 30% of the data are mislabeled. We will evaluate:
+
+- **Confusion matrix:** How is the confusion matrix affected?
+- **Precision & recall:** How are precision and recall affected?
+- **Dirty data:** How do dirty data impact the model?
 
 ## Project Structure <a name="structure"/>
 
