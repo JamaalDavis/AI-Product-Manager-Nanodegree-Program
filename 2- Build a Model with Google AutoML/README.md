@@ -27,7 +27,15 @@ We'll be using the same Kaggle [Chest x-ray dataset](https://www.kaggle.com/paul
 
 ## The Four Parts of the Project <a name="parts"/>
 
-We will train four different models using four variants of the [pneumonia dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia). Recall that the dataset contains childrens' chest x-ray images, and that they are classified into two classes, "normal" and "pneumonia". The following sections describe the steps you must take to create each model.
+We will train four different models using four variants of the [pneumonia dataset](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia). Recall that the dataset contains childrens' chest x-ray images, and that they are classified into two classes, "normal" and "pneumonia". The following sections describe the steps we must take to create each model.
+
+### Create a binary classifier to detect pneumonia using chest x-rays
+
+We'll start by training a model simply using 100 images from the **normal** class and 100 images from the **pneumoni** class. We will evaluate the following:
+
+- Train/test split: How much data is used for training and how much is used for testing?
+- Confusion matrix: What do each of the cells in the confusion matrix describe?
+- Precision & recall: What do these measure and how are they calculated?
 
 ## Project Structure <a name="structure"/>
 
