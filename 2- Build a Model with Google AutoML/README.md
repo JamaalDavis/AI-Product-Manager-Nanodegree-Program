@@ -38,6 +38,7 @@ We'll start by training a model simply using 100 images from the **'normal'** cl
 - **Precision & recall:** What do these measure and how are they calculated?
 
 ### Create an unbalanced binary classifier
+
 Next, we will use 100 images from the **'normal'** class, and add 200 more **'pneumonia'** class images. At this moment, the total count of images must be:
 
 - **'normal'** class = 100
@@ -50,11 +51,22 @@ The model will be trained on very unbalanced classes; this will show what happen
 - **Unbalanced classes:** How do unbalanced classes impact a machine learning model?
 
 ### Create a binary classifier with dirty data
-In this iteration, start with the original dataset of 100 **normal** and 100 **pneumonia** images. Then switch the labels of 30 images in each class. After we've done this, 30% of the data are mislabeled. We will evaluate:
+
+In this iteration, we will start with the original dataset of 100 **normal** and 100 **pneumonia** images. Then switch the labels of 30 images in each class. After we've done this, 30% of the data are mislabeled. We will evaluate:
 
 - **Confusion matrix:** How is the confusion matrix affected?
 - **Precision & recall:** How are precision and recall affected?
 - **Dirty data:** How do dirty data impact the model?
+
+### Create a three-class model with the classes “normal”, “bacterial pneumonia”, and “viral pneumonia”
+
+For the final model, note that the "pneumonia" images actually have two different classes: **bacterial** pneumonia and **viral** pneumonia. These labels are indicated in the image filenames. For this model, add 100 **normal** images, 100 **bacterial pneumonia** images, and 100 **viral pneumonia** images (for a total of 3 classes). We will evaluate:
+
+- **Confusion matrix:** What does the 3-class confusion matrix look like?
+- **Precision & recall:** What are the model's precision and recall? How are these measures calculated?
+- **More data:** Can you continue to add data to each class (while keeping the data balanced) and get the model to 85% precision and recall? How many data did you end up using?
+
+After we have trained each model, we will answer questions about it in the ***AutoML Modeling Report***.
 
 ## Project Structure <a name="structure"/>
 
